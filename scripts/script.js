@@ -3,13 +3,17 @@ let titleElement = document.getElementById('title');
 console.log(titleElement);
 
 // querySelector
-let h2Element = document.querySelector('h2');
+let subtitleIdElement = document.querySelector('#subtitle');
+let subtitleClassElement = document.querySelector('.subtitle');
 let h3Element = document.querySelector('h3');
-let h4Element = document.querySelector('h4');
 
-console.log(h2Element);
+console.log(subtitleIdElement);
+console.log(subtitleClassElement);
 console.log(h3Element);
-console.log(h4Element);
+
+// subtitleIdElement.innerHTML = '///';
+// subtitleClassElement.innerHTML = '000';
+// h3Element.innerHTML = '...'
 
 // querySelectorAll
 let descriptions = document.querySelectorAll("p");
