@@ -10,3 +10,8 @@ let h4Element = document.querySelector('h4');
 console.log(h2Element);
 console.log(h3Element);
 console.log(h4Element);
+
+// querySelectorAll
+let descriptions = document.querySelectorAll("p");
+
+console.log(descriptions);
